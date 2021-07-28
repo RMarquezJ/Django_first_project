@@ -11,4 +11,6 @@ urlpatterns = [
     path('blogs/<int:num>/delete', views.destroy),
     path('blogs/json', views.json),
     path('dos/', views.other_func),
+    path('blogs/images/', views.images),
+    path('time_display', views.local)
 ]
